@@ -1,0 +1,15 @@
+.div{
+   display: flex;
+    background-color: grey;
+    text-align: center;
+    
+
+}
+.div2{
+    width: 1200px;
+}
+.btn{
+    background-color: black;
+    color: aqua;
+    border-radius: 20px;
+}
