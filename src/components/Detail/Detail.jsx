@@ -39,7 +39,7 @@ const Detail =() => {
     return (
       <div className={css.container}>
         <div className={css.div}>
-            <button className={css.btn} onClick={handleClick}>Home</button>
+            <button className={css.button} onClick={handleClick}>Home</button>
             <h2>Detail</h2>
             {
                 character ? (

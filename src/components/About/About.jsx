@@ -8,7 +8,7 @@ export default function About() {
            <h1>hola soy carlos</h1>
        
        <NavLink  to='/home' >
-        <button className={css.btn}>BACK</button>
+        <button className={css.button}>BACK</button>
        </NavLink>
         </div>
     

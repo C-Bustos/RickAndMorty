@@ -8,7 +8,7 @@ export default function Card({key,name,status,species,gender,origin,image,onClos
       
       <>
         <div className={style.div}>
-         <button className={style.btn} onClick={()=>onClose(id)}>X</button>
+         <button className={style.button} onClick={()=>onClose(id)}>X</button>
          <img src={image} alt='' className={style.imagen} />
         <Link to={`/detail/${id}`}>
          <h4 className={style.nombre}>{name}</h4>

@@ -14,7 +14,7 @@ const handleChange=(event)=>{
    return (
       <div className={style.div}>
          <input className={style.input} type='search' onChange={handleChange} value={id} />
-         <button className={style.btn} onClick={()=> props.onSearch(id)}>Agregar</button>
+         <button className={style.button} onClick={()=> props.onSearch(id)}>Agregar</button>
       </div>
    );
 }

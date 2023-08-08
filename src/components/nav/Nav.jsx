@@ -7,11 +7,11 @@ export default function Nav(props) {
   return (
     <div className={Style.div} >
         <div className={Style.div2}></div>
-          <button className={Style.btn}>
+          <button className={Style.button}>
             <NavLink  to='/about'> ABOUT</NavLink>
           </button>
           
-          <button className={Style.btn}>
+          <button className={Style.button}>
           <NavLink to='/home'> HOME</NavLink>
           </button>
         

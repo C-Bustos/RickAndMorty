@@ -33,28 +33,34 @@ export default function Form(props) {
 
   return (
     <div className={css.container}>
+      
         <div  className={css.div}>
-        
+
+       
+          
           <form>
-        <lable className={css.label}>Email</lable>
+            
+        <label htmlFor='email' className={css.label}>Email: </label>
         <input type = 'email' placeholder='Email' value={userData.email} name='email' onChange={handleChange} ></input>
 
-        {
+        <div className={css.errors}>{
           
-          // errors.email? (<p>{errors.email}</p>):errors.emailVacio ?(<p>{errors.emailVacio}</p>):(errors.lon)
+           errors.email? (<p>{errors.email}</p>):errors.emailVacio ?(<p>{errors.emailVacio}</p>):(errors.lon)
         }
+         </div>
 
         <br/>
-        <lable className={css.label}>Password</lable>
+        <label htmlFor='password' className={css.label}>Password: </label>
         <input type='password' placeholder='Password'  value={userData.password} name='password' onChange={handleChange} ></input>
 
+        <div className={css.errors}>
         {
 
-          // error.password?(<p>{error.password}</p>):(<p>{error.passCaracters}</p>)
+          errors.password?(<p>{errors.password}</p>):(<p>{errors.passCaracters}</p>)
         }
-
+        </div>
         <br/>
-        <button className={css.btn} type='submit' onClick={handleSubmit} >Submit</button>
+        <button className={css.button} type='submit' onClick={handleSubmit} >Submit</button>
        </form> 
        
 
