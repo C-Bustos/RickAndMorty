@@ -1,0 +1,33 @@
+.container {
+    border: none;
+    background-color: #7a7674bf;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90vw;
+    padding-bottom: 2em;
+    perspective: 1500px;
+    margin-bottom: 2em;
+    flex-direction: column;
+  }
+  
+  .containerCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1em;
+  }
+  
+  .filterOrder {
+    margin-top: 2em;
+    margin-right: 2em;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    color: #333;
+    font-size: 14px;
+  }
